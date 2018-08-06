@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC0B56A1BE3795200221D45 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDC0B5691BE3795200221D45 /* main.cpp */; };
+		CDC0B5711BE3796800221D45 /* colaPersona.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDC0B5701BE3796800221D45 /* colaPersona.cpp */; settings = {ASSET_TAGS = (); }; };
+		CDC0B5771BE3799000221D45 /* Pila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDC0B5751BE3799000221D45 /* Pila.cpp */; settings = {ASSET_TAGS = (); }; };
+		CDC0B57A1BE379A100221D45 /* ColaGondola.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDC0B5781BE379A100221D45 /* ColaGondola.cpp */; settings = {ASSET_TAGS = (); }; };
+		CDC0B57D1BE38E4900221D45 /* Persona.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDC0B57C1BE38E4900221D45 /* Persona.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDC0B5641BE3795200221D45 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDC0B5661BE3795200221D45 /* Telesilla */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Telesilla; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC0B5691BE3795200221D45 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CDC0B5701BE3796800221D45 /* colaPersona.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colaPersona.cpp; sourceTree = "<group>"; };
+		CDC0B5721BE3797300221D45 /* colaPersonas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colaPersonas.h; sourceTree = "<group>"; };
+		CDC0B5731BE3797D00221D45 /* Nodo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nodo.h; sourceTree = "<group>"; };
+		CDC0B5741BE3798700221D45 /* Pila.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pila.h; sourceTree = "<group>"; };
+		CDC0B5751BE3799000221D45 /* Pila.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pila.cpp; sourceTree = "<group>"; };
+		CDC0B5781BE379A100221D45 /* ColaGondola.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColaGondola.cpp; sourceTree = "<group>"; };
+		CDC0B5791BE379A100221D45 /* Gondola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gondola.h; sourceTree = "<group>"; };
+		CDC0B57B1BE38C3C00221D45 /* Persona.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		CDC0B57C1BE38E4900221D45 /* Persona.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Persona.cpp; sourceTree = "<group>"; };
+		CDC0B57E1BE3D1D100221D45 /* ColaGondola.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColaGondola.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC0B5631BE3795200221D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC0B55D1BE3795200221D45 = {
+			isa = PBXGroup;
+			children = (
+				CDC0B5681BE3795200221D45 /* Telesilla */,
+				CDC0B5671BE3795200221D45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC0B5671BE3795200221D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0B5661BE3795200221D45 /* Telesilla */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC0B5681BE3795200221D45 /* Telesilla */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0B5691BE3795200221D45 /* main.cpp */,
+				CDC0B5701BE3796800221D45 /* colaPersona.cpp */,
+				CDC0B5721BE3797300221D45 /* colaPersonas.h */,
+				CDC0B5731BE3797D00221D45 /* Nodo.h */,
+				CDC0B5751BE3799000221D45 /* Pila.cpp */,
+				CDC0B5741BE3798700221D45 /* Pila.h */,
+				CDC0B5781BE379A100221D45 /* ColaGondola.cpp */,
+				CDC0B57E1BE3D1D100221D45 /* ColaGondola.h */,
+				CDC0B5791BE379A100221D45 /* Gondola.h */,
+				CDC0B57C1BE38E4900221D45 /* Persona.cpp */,
+				CDC0B57B1BE38C3C00221D45 /* Persona.h */,
+			);
+			path = Telesilla;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC0B5651BE3795200221D45 /* Telesilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC0B56D1BE3795200221D45 /* Build configuration list for PBXNativeTarget "Telesilla" */;
+			buildPhases = (
+				CDC0B5621BE3795200221D45 /* Sources */,
+				CDC0B5631BE3795200221D45 /* Frameworks */,
+				CDC0B5641BE3795200221D45 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telesilla;
+			productName = Telesilla;
+			productReference = CDC0B5661BE3795200221D45 /* Telesilla */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC0B55E1BE3795200221D45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Enrique;
+				TargetAttributes = {
+					CDC0B5651BE3795200221D45 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = CDC0B5611BE3795200221D45 /* Build configuration list for PBXProject "Telesilla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDC0B55D1BE3795200221D45;
+			productRefGroup = CDC0B5671BE3795200221D45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC0B5651BE3795200221D45 /* Telesilla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC0B5621BE3795200221D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC0B57A1BE379A100221D45 /* ColaGondola.cpp in Sources */,
+				CDC0B5711BE3796800221D45 /* colaPersona.cpp in Sources */,
+				CDC0B57D1BE38E4900221D45 /* Persona.cpp in Sources */,
+				CDC0B56A1BE3795200221D45 /* main.cpp in Sources */,
+				CDC0B5771BE3799000221D45 /* Pila.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDC0B56B1BE3795200221D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDC0B56C1BE3795200221D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDC0B56E1BE3795200221D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDC0B56F1BE3795200221D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC0B5611BE3795200221D45 /* Build configuration list for PBXProject "Telesilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC0B56B1BE3795200221D45 /* Debug */,
+				CDC0B56C1BE3795200221D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC0B56D1BE3795200221D45 /* Build configuration list for PBXNativeTarget "Telesilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC0B56E1BE3795200221D45 /* Debug */,
+				CDC0B56F1BE3795200221D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC0B55E1BE3795200221D45 /* Project object */;
+}
